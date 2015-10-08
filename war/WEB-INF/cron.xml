@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/notify?send=true%26event=friday</url>
+    <description>notify friday event</description>
+    <schedule>every sunday 16:10</schedule>
+    <timezone>America/New_York</timezone>
+  </cron>
+  
+   <cron>
+    <url>/notify?event=sunday%26send=true</url>
+    <description>notify sunday event</description>
+    <schedule>every sunday 16:00</schedule>
+    <timezone>America/New_York</timezone>
+  </cron>
+  
+   <!--
+  <cron>
+    <url>/weeklyreport</url>
+    <description>Mail out a weekly report</description>
+    <schedule>every monday 08:30</schedule>
+    <timezone>America/New_York</timezone>
+  </cron>
+  <cron>
+    <url>/weeklyreport</url>
+    <description>Mail out a weekly report</description>
+    <schedule>every monday 08:30</schedule>
+    <timezone>America/New_York</timezone>
+    <target>version-2</target>
+  </cron>
+  --> 
+</cronentries>
