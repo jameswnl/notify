@@ -10,4 +10,4 @@ The idea is that people who are coordinating can use a familiar UI - google spre
 2. Mailing service: Google mail service
 3. Hosting: Google App Engine and its cron job
 
-I try to refactor the code in a way to allow plugging in different data source other than google spreadsheet and different mailing service e.g. AWS SNS.  I create this with my own use cases in mind and try to make it as generic. Obvious, there will be a lot of room for improvement in terms of code quality and feature. As this is just a pet project which I built using time squeezed out of my day time job and kids/family time, it is not at the level of code quality and feature richness I would like it to be.
+I try to refactor the code in a way to allow plugging in different data source other than google spreadsheet and different mailing service e.g. AWS SNS.  I create this with my own use cases in mind and try to make it as generic. As this is just a pet project which I built using time squeezed out of my day time job and kids/family time, it is not at the level of code quality and feature richness I would like it to be.
